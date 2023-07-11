@@ -11,7 +11,6 @@ window.onload = function() {
   let adj = ["great", "big"];
   let noun = ["jogger", "racoon"];
 
-  let text = "";
   for (let a in adj) {
     for (let p in pronoun) {
       for (let n in noun) {
