@@ -10,12 +10,12 @@ window.onload = function() {
   let pronoun = ["the", "our"];
   let adj = ["great", "big"];
   let noun = ["jogger", "racoon"];
-
-  for (let a in adj) {
-    for (let p in pronoun) {
-      for (let n in noun) {
+  let domain = ".com";
+  for (let adjetivo of adj) {
+    for (let pronombre of pronoun) {
+      for (let sustantivo of noun) {
         document.getElementById("domain").innerHTML +=
-          pronoun[p] + adj[a] + noun[n] + ".com" + "<br>";
+          pronombre + adjetivo + sustantivo + domain + "<br>";
       }
     }
   }
